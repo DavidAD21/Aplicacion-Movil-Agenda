@@ -11,7 +11,7 @@ namespace Tr1
             InitializeComponent();
 
             // Envolver MainPage dentro de un NavigationPage
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart()

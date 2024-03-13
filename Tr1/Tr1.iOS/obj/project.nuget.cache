@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "REL+5/rLoE47tnG/jK3WrTUGOEStwgYuRnHkdUnxGNAT/3FN3dBUkeBGhHM8JkvwVvlooMkxJVAD4+KMsXx8xA==",
+  "dgSpecHash": "kfT9OwxrFCHOXPMxLW0IX4gYq3P/V5+CwH3ZfxdDu7KZhau7Wc15n7KBEPvy132W5Okgqlru2QUttdO8n5lo/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\adrim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
