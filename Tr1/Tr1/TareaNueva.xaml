@@ -1,0 +1,34 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tr1.Page1">
+
+    <!-- Grid con fondo azul que envuelve todo el contenido de la página -->
+    <Grid BackgroundColor="#6FEDB7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Frame para el texto "Nueva tarea" -->
+        <Frame BackgroundColor="#2DD881" Padding="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+            <Label TextColor="White" Text="Nueva tarea" FontSize="Large" HorizontalOptions="Center" />
+        </Frame>
+        <AbsoluteLayout Grid.Row="1" Margin="10">
+            <!-- Resto del contenido de la página -->
+        <StackLayout Grid.Row="1" Margin="0">
+            <!-- Coloca el resto de los elementos -->
+            <Label TextColor="#003E1F" Text="¿Qué hay que hacer?" FontSize="Medium" />
+            <Entry Placeholder="Introduzca tarea" />
+            <Label TextColor="#003E1F" Text="Fecha límite" FontSize="Medium" Margin="0,10,0,0" />
+            <DatePicker x:Name="datePicker" Margin="0,0,0,10" />
+            <Label TextColor="#003E1F" Text="Añadir a La lista" FontSize="Medium"/>
+            <Label TextColor="#003E1F" Text="Por defecto" FontSize="Medium"/>
+        </StackLayout>
+
+        <!-- Coloca la imagen del check en la esquina inferior izquierda -->
+            <Image Source="check1.png" HeightRequest="40" WidthRequest="40"
+        AbsoluteLayout.LayoutBounds="0,1,700,60"
+        AbsoluteLayout.LayoutFlags="PositionProportional" />
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>

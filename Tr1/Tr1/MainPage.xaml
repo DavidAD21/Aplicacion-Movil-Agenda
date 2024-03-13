@@ -1,100 +1,122 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Tr1.MainPage">
+             xmlns:local="clr-namespace:Tr1"
+             x:Class="Tr1.MainPage"
+             Title="Lista de Actividades">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid>
+        <ScrollView Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-        <!-- Fondo general azul -->
-        <BoxView Color="#323AF5" Grid.RowSpan="11"/>
+                <!-- Fondo general azul -->
+                <BoxView Color="white" Grid.RowSpan="11"/>
 
-        <!-- Rectángulo en la parte superior -->
-        <BoxView Color="#3175F5" HeightRequest="50" Grid.Row="0"/>
+                <!-- Rectángulo en la parte superior -->
+                <BoxView Color="#2DD881" HeightRequest="50" Grid.Row="0"/>
 
-        <!-- Contenido de la lista de actividades -->
-        <StackLayout Grid.Row="0" IsVisible="true" x:Name="actividadesLayout" Orientation="Horizontal">
-            <!-- Icono de verificación (check) -->
-            <Image Source="check3.png" HeightRequest="25" WidthRequest="25" Margin="5,0,5,0">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="HandleCheckTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
+                <!-- Contenido de la lista de actividades -->
+                <StackLayout Grid.Row="0" IsVisible="true" Orientation="Horizontal">
+                    <!-- Icono de verificación (check) -->
+                    <Image Source="check3.png" HeightRequest="25" WidthRequest="25" Margin="5,0,5,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="HandleCheckTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
-            <!-- Nombre de la lista de actividades -->
-            <Label Text="Lista de actividades" TextColor="White" VerticalOptions="Center" Margin="5,0,0,0">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="MostrarOcultarLista"/>
-                </Label.GestureRecognizers>
-            </Label>
+                    <!-- Nombre de la lista de actividades -->
+                    <Label Text="Lista de actividades" TextColor="White" VerticalOptions="Center" Margin="5,0,0,0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="MostrarOcultarLista"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+
+
+                <!-- Lista de actividades (en la capa superior) -->
+               <Grid Grid.Row="1"> <!-- Asegúrate de que este Grid tenga la misma fila que el otro contenido -->
+                    <Frame x:Name="listaActividadesFrame" IsVisible="True" CornerRadius="10"
+                           BackgroundColor="#2D93F7" Margin="10" HorizontalOptions="FillAndExpand"
+                           WidthRequest="200" HeightRequest="300"> <!-- Ajusta el tamaño según sea necesario -->
+                        <ListView x:Name="listaActividadesListView" ItemSelected="ActividadSeleccionada">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Horizontal" Padding="10">
+                                            <Label TextColor="White" Text="{Binding}" VerticalOptions="Center"/>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Por defecto</x:String>
+                                    <x:String>Compras</x:String>
+                                    <x:String>Lista de deseos</x:String>
+                                    <x:String>Personal</x:String>
+                                    <x:String>Trabajo</x:String>
+                                    <x:String>Nueva Lista</x:String>
+                                </x:Array>
+                            </ListView.ItemsSource>
+                        </ListView>
+                    </Frame>
+                  
+                </Grid>
+
+
+
+                <!-- Nuevo StackLayout para el texto agregado -->
+                <StackLayout Grid.Row="2" x:Name="actividadesStackLayout" >
+
+                    <!-- Aquí se agregarán dinámicamente los elementos de texto -->
+                </StackLayout>
+
+
+                <!-- StackLayout para la lupa y los tres puntos -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="Center" Grid.Row="0">
+                    <!-- Icono de lupa -->
+                    <Image Source="buscar.png" HeightRequest="25" WidthRequest="25">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="HandleSearchTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <!-- Espacio para separar la lupa de los tres puntos -->
+                    <BoxView WidthRequest="10"/>
+
+                    <!-- Icono de menú desplegable (tres puntos) -->
+                    <Image Source="trespuntos.png" HeightRequest="52" WidthRequest="50">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="HandleMenuTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+
+<Grid VerticalOptions="End">
+    <Frame BackgroundColor="#CCE5FF" CornerRadius="20" Margin="20" Padding="10" VerticalOptions="End">
+        <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand">
+            <Entry x:Name="entryActividad" Placeholder="Introduzca actividad rápida"
+                   BackgroundColor="#FFFFFF"  Margin="0,0,0,10" />
+            <Button x:Name="btnEnviar" Text="AGREGAR" WidthRequest="120" HeightRequest="50" Clicked="HandleEnviarClicked"
+                    BackgroundColor="#3C9EFF" CornerRadius="25" Margin="0,0,0,10" TextColor="White"/>
         </StackLayout>
+    </Frame>
+</Grid>
 
-        <!-- Lista de actividades (en la capa superior) -->
-        <Frame Grid.Row="1" x:Name="listaActividadesFrame" IsVisible="False" CornerRadius="10"
-               BackgroundColor="#2D93F7" Margin="5" HeightRequest="150" WidthRequest="150"
-               AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
-            <ListView x:Name="listaActividadesListView" ItemSelected="ActividadSeleccionada">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Horizontal" Padding="10">
-                                <Image Source="casa.png" HeightRequest="20" WidthRequest="20" Margin="0,0,10,0"/>
-                                <Label TextColor="White" Text="{Binding}" VerticalOptions="Center"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Por defecto</x:String>
-                        <x:String>Compras</x:String>
-                        <x:String>Lista de deseos</x:String>
-                        <x:String>Personal</x:String>
-                        <x:String>Trabajo</x:String>
-                        <x:String>Nueva Lista</x:String>
-                    </x:Array>
-                </ListView.ItemsSource>
-            </ListView>
-        </Frame>
 
-        <!-- StackLayout para la lupa y los tres puntos -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="Center" Grid.Row="0">
-            <!-- Icono de lupa -->
-            <Image Source="buscar.png" HeightRequest="25" WidthRequest="25">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="HandleSearchTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
 
-            <!-- Espacio para separar la lupa de los tres puntos -->
-            <BoxView WidthRequest="10"/>
 
-            <!-- Icono de menú desplegable (tres puntos) -->
-            <Image Source="trespuntos.png" HeightRequest="52" WidthRequest="50">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="HandleMenuTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-        </StackLayout>
+            
+              
 
-        <!-- Botón "+" en la esquina inferior derecha -->
-        <Frame BackgroundColor="LightGray" WidthRequest="20" HeightRequest="20" CornerRadius="60"
-               HorizontalOptions="End" VerticalOptions="End" Margin="10" Grid.Row="9">
-            <Button Text="+"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    FontSize="15"
-                    Clicked="HandleAddClicked"/>
-        </Frame>
 
-        <!-- Rectángulo en la parte inferior -->
-        <BoxView Color="#3175F5" HeightRequest="20" Grid.Row="10"/>
 
-        <!-- Entrada de texto -->
-        <Entry PlaceholderColor="White" Placeholder="Introduzca actividad rápida" Grid.Row="10" HorizontalOptions="FillAndExpand"/>
     </Grid>
 </ContentPage>

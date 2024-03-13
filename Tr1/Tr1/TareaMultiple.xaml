@@ -1,0 +1,35 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tr1.TareaMultiple"
+             Title="Añadir múltiples tareas">
+
+    <!-- Grid con fondo azul que envuelve todo el contenido de la página -->
+    <Grid BackgroundColor="#6FEDB7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <!-- Resto del contenido de la página -->
+        <AbsoluteLayout Grid.Row="1" Margin="10">
+            <!-- StackLayout para organizar los elementos -->
+            <StackLayout>
+                <!-- Coloca el resto de los elementos -->
+                <Label TextColor="#003E1F" Text="¿Qué hay que hacer?" FontSize="Medium" />
+                <Editor x:Name="editorTareas" Margin="0,0,0,10" TextColor="LightGray" HeightRequest="110" Focused="Editor_Focused"/>
+                <Label TextColor="#003E1F" FontSize="Medium" Text="Fecha límite" Margin="0,10,0,0" />
+                <DatePicker x:Name="datePicker" Margin="0,0,0,10" />
+            </StackLayout>
+
+            <!-- Coloca la imagen del check en la esquina inferior izquierda -->
+            <Image Source="check1.png" HeightRequest="40" WidthRequest="40"
+                   AbsoluteLayout.LayoutBounds="0,1,700,60"
+                   AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="GuardarTareas_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>
