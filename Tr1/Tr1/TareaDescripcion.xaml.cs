@@ -18,7 +18,7 @@ namespace Tr1
         {
             InitializeComponent();
             this.nombreTarea = nombreTarea;
-            lblTareaSeleccionada.Text = $"Descripción de la tarea: {nombreTarea}";
+           
         }
 
     }

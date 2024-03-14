@@ -3,9 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tr1.TareaDescripcion">
     <ContentPage.Content>
-        <StackLayout>
-            <!-- Asegúrate de tener un Label con el nombre lblTareaSeleccionada -->
-            <Label x:Name="lblTareaSeleccionada" Text="Descripción de la tarea seleccionada" />
-        </StackLayout>
+        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Pagina en Mantenimiento" FontSize="25" Margin="0,0,0,40" HorizontalOptions="Center"  Grid.Row="0"/>
+
+            <Image Source="mantenimiento.png"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Aspect="AspectFit"
+                   WidthRequest="300"
+                   Grid.Row="1" />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

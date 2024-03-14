@@ -1,10 +1,14 @@
-﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tr1.MainPage"
              Title="Lista de Actividades"
-             IconImageSource="sesion.png">
-                
-        <Grid>
+             IconImageSource="sesion.png"
+             BackgroundColor="#FFECD5"
+
+             >
+
+    <Grid>
         <ScrollView Grid.Row="0">
             <Grid>
                 <Grid.RowDefinitions>
@@ -15,11 +19,11 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <!-- Fondo general azul -->
-                <BoxView Color="white" Grid.RowSpan="11"/>
+                <!-- Fondo general -->
+                <BoxView Color="#white" Grid.RowSpan="11"/>
 
                 <!-- Rectángulo en la parte superior -->
-                <BoxView Color="#2DD881" HeightRequest="50" Grid.Row="0"/>
+                <BoxView Color="#FDA155" HeightRequest="50" Grid.Row="0"/>
 
                 <!-- Contenido de la lista de actividades -->
                 <StackLayout Grid.Row="0" IsVisible="true" Orientation="Horizontal">
@@ -31,7 +35,7 @@
                     </Image>
 
                     <!-- Nombre de la lista de actividades -->
-                    <Label Text="Lista de actividades" TextColor="White" VerticalOptions="Center" Margin="5,0,0,0">
+                    <Label Text="Lista de actividades" TextColor="#ffffff" VerticalOptions="Center" Margin="5,0,0,0">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="MostrarOcultarLista"/>
                         </Label.GestureRecognizers>
@@ -40,43 +44,38 @@
 
 
                 <!-- Lista de actividades (en la capa superior) -->
-                <Grid Grid.Row="1">
-                    <!-- Asegúrate de que este Grid tenga la misma fila que el otro contenido -->
-                    <Frame x:Name="listaActividadesFrame" IsVisible="True" CornerRadius="10"
-                           BackgroundColor="#2D93F7" Margin="10" HorizontalOptions="FillAndExpand"
-                           WidthRequest="200" HeightRequest="300">
-                        <!-- Ajusta el tamaño según sea necesario -->
-                        <ListView x:Name="listaActividadesListView" ItemSelected="ActividadSeleccionada">
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <ViewCell>
-                                        <StackLayout Orientation="Horizontal" Padding="10">
-                                            <Label TextColor="White" Text="{Binding}" VerticalOptions="Center"/>
-                                        </StackLayout>
-                                    </ViewCell>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                            <ListView.ItemsSource>
-                                <x:Array Type="{x:Type x:String}">
-                                    <x:String>Por defecto</x:String>
-                                    <x:String>Compras</x:String>
-                                    <x:String>Lista de deseos</x:String>
-                                    <x:String>Personal</x:String>
-                                    <x:String>Trabajo</x:String>
-                                    <x:String>Nueva Lista</x:String>
-                                </x:Array>
-                            </ListView.ItemsSource>
-                        </ListView>
-                    </Frame>
-
-                </Grid>
+                <Frame x:Name="listaActividadesFrame" IsVisible="True" CornerRadius="10"
+                       Margin="10" HorizontalOptions="FillAndExpand"
+                       WidthRequest="200" HeightRequest="300" Grid.Row="1">
+                    <!-- Ajusta el tamaño según sea necesario -->
+                    <ListView x:Name="listaActividadesListView" ItemSelected="ActividadSeleccionada" BackgroundColor="#ffffff">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" Padding="10">
+                                        <Label TextColor="#333333" Text="{Binding}" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Por defecto</x:String>
+                                <x:String>Compras</x:String>
+                                <x:String>Lista de deseos</x:String>
+                                <x:String>Personal</x:String>
+                                <x:String>Trabajo</x:String>
+                                <x:String>Nueva Lista</x:String>
+                            </x:Array>
+                        </ListView.ItemsSource>
+                    </ListView>
+                </Frame>
 
 
                 <!-- Nuevo StackLayout para el texto agregado -->
-                <StackLayout Grid.Row="2" x:Name="actividadesStackLayout" >
-                    <!-- Aquí se agregarán dinámicamente los elementos de texto -->
-                </StackLayout>
+                <StackLayout Grid.Row="2" Margin="20,0,20,0" x:Name="actividadesStackLayout" BackgroundColor="#FDA155" Spacing="10">
 
+                </StackLayout>
 
 
                 <!-- StackLayout para la lupa y los tres puntos -->
@@ -100,17 +99,17 @@
             </Grid>
         </ScrollView>
 
-            <Grid VerticalOptions="End">
-            <Frame BackgroundColor="#CCE5FF" CornerRadius="20" Margin="20" Padding="10" VerticalOptions="End">
-            <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand">
-                <Entry x:Name="entryActividad" Placeholder="Introduzca actividad rápida"
-                        BackgroundColor="#FFFFFF"  Margin="0,0,0,10" />
-                <Button x:Name="btnEnviar" Text="AGREGAR" WidthRequest="120" HeightRequest="50" Clicked="HandleEnviarClicked"
-                        BackgroundColor="#3C9EFF" CornerRadius="25" Margin="0,0,0,10" TextColor="White"/>
-            </StackLayout>
+        <!-- Contenedor de entrada y botón -->
+        <Grid VerticalOptions="End">
+            <Frame  CornerRadius="20" Margin="20" Padding="20" VerticalOptions="End">
+                <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand" Spacing="20">
+                    <Entry TextColor="Black" x:Name="entryActividad" Placeholder="Introduzca actividad rápida"
+                           BackgroundColor="#ffffff" />
+                    <Button x:Name="btnEnviar" Text="AGREGAR" WidthRequest="120" HeightRequest="50" Clicked="HandleEnviarClicked"
+                            BackgroundColor="#FDA155"  CornerRadius="25" TextColor="#ffffff"/>
+                </StackLayout>
             </Frame>
-            </Grid>
-
+        </Grid>
 
     </Grid>
 </ContentPage>

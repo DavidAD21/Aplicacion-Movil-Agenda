@@ -97,9 +97,6 @@
     <AndroidResource Include="Resources\drawable\check1.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\lupa.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\trespuntos.png" />
   </ItemGroup>
   <ItemGroup>
@@ -115,12 +112,15 @@
     <AndroidResource Include="Resources\drawable\hora.png" />
     <Content Include="Resources\drawable\like.png" />
     <AndroidResource Include="Resources\drawable\perfil.png" />
+    <AndroidResource Include="Resources\drawable\mantenimiento.png" />
+    <AndroidResource Include="Resources\drawable\lupa.png" />
     <Content Include="Resources\drawable\sesion.png" />
+    <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionTr1AndroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadGenericExceptionInfoBarTr1AndroidHideInfoBar="True" XamarinHotReloadDebuggerTimeoutExceptionTr1AndroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

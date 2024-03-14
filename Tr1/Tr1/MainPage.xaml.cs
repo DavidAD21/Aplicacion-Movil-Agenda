@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace Tr1
         // Método para manejar el toque en el icono de menú desplegable
         private async void HandleMenuTapped(object sender, EventArgs e)
         {
-            var action = await DisplayActionSheet("Opciones", "Cancelar", null, "Configuración", "Tareas Múltiples");
+            var action = await DisplayActionSheet("Opciones", "Cancelar", null, "Configuración", "Tareas Múltiples","Cerrar Sesión");
 
             switch (action)
             {
@@ -37,6 +38,12 @@ namespace Tr1
                 case "Tareas Múltiples":
                     // Navegar a la página de Tareas Múltiples
                     await Navigation.PushAsync(new TareaMultiple());
+                    break;
+                case "Cerrar Sesión":
+                    UserDialogs.Instance.ShowLoading("Cerrando sesión...");
+                    await Task.Delay(3000);
+                    UserDialogs.Instance.HideLoading();
+                    await Navigation.PushAsync(new Login());
                     break;
                 default:
                     // Otro caso
@@ -170,4 +177,4 @@ namespace Tr1
             // Tu lógica para agregar tareas aquí...
         }
     }
-    }
+}

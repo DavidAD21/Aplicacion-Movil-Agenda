@@ -2,20 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tr1.Login"
-             Title="Iniciar Sesion"
-             IconImageSource="hora.png">
 
+             BackgroundColor="#FFECD5">
     <ContentPage.Content>
-        <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand">
-            <Label Text="Login" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
 
-            <Entry x:Name="entryUsername" Placeholder="Email" Keyboard="Email" />
-            <Entry x:Name="entryPassword" Placeholder="Password" IsPassword="True" />
+        <StackLayout   HeightRequest="400" Margin="10,0,10,0" BackgroundColor="White" Padding="20" Spacing="20" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+            <Frame CornerRadius="25" BackgroundColor="#FDA155" Margin="120,10,120,20" Padding="10">
+               
+                <Image Source="user.png"
+                       WidthRequest="40"
+                       Aspect="AspectFit" HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Start" />
+            </Frame>
 
-            <Button Text="Iniciar Sesión" BackgroundColor="#4CAF50" TextColor="White" Clicked="HandleLoginClicked" />
+
+            <Entry  TextColor="Black" PlaceholderColor="Gray" x:Name="entryUsername" Placeholder="Email" Keyboard="Email" />
+            <Entry  TextColor="Black" PlaceholderColor="Gray" x:Name="entryPassword" Placeholder="Password" IsPassword="True" />
 
 
-            <Label Text="¿No tienes una cuenta?" HorizontalOptions="Center">
+            <Button BackgroundColor="#FDA155"  CornerRadius="25"
+                    TextColor="#ffffff" WidthRequest="120" HeightRequest="50"
+                    Text="Iniciar Sesión" Clicked="HandleLoginClicked" />
+
+
+            <Label TextColor="#FDA155" Text="¿No tienes una cuenta?" HorizontalOptions="Center">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="HandleRegisterTapped" />
                 </Label.GestureRecognizers>
@@ -23,5 +33,4 @@
 
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>

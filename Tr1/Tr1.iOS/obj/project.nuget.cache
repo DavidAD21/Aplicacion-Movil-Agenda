@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AyYylK7tDbibgQ7+FbmlrTE82yiRjksHYi95F0q9V9JMJxeJQFX04QWKFcajWYTngxgigh1ILnOKYQukTyfogg==",
+  "dgSpecHash": "TahYGciNOfUlk0H5Fk/h3eJOhfc2ZBN0FQTflFedJdwI+5QBpWRJZEEi+HWbyKlMBGithTpJMWL0BQfXAiG2JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\adrim\\Videos\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\btprogresshud\\1.3.5\\btprogresshud.1.3.5.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\PC-WIN-10-uefi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\adrim\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\btprogresshud\\1.3.5\\btprogresshud.1.3.5.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
