@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\",
+  "WorkspaceRootPath": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareadescripcion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareadescripcion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,17 +18,41 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\userperfil.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\userperfil.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+=======
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+>>>>>>> b85f474152f9e807ab6ea1d402c0f4515690918e
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0501E62E-7075-446B-B556-2BBDAC9B8CC7}|Tr1\\Tr1.Android\\Tr1.Android.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0501E62E-7075-446B-B556-2BBDAC9B8CC7}|Tr1\\Tr1.Android\\Tr1.Android.csproj|solutionrelative:tr1\\tr1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+=======
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+>>>>>>> b85f474152f9e807ab6ea1d402c0f4515690918e
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
@@ -66,9 +91,18 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -95,17 +129,44 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-13T22:36:01.751Z"
+=======
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1.Android\\MainActivity.cs",
+              "RelativeToolTip": "Tr1\\Tr1.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T00:40:05.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T00:39:09.394Z",
+              "EditorCaption": ""
+>>>>>>> b85f474152f9e807ab6ea1d402c0f4515690918e
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml",
-              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\App.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml",
               "RelativeToolTip": "Tr1\\Tr1\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+<<<<<<< HEAD
               "WhenOpened": "2024-03-13T22:35:45.561Z"
             },
             {
@@ -229,6 +290,72 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-13T21:33:23.793Z"
+=======
+              "WhenOpened": "2024-03-14T00:39:07.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:31:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T22:30:54.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\Login.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:22:35.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\Login.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T22:11:00.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+>>>>>>> b85f474152f9e807ab6ea1d402c0f4515690918e
             }
           ]
         }

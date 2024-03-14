@@ -5,12 +5,23 @@
              Title="Iniciar Sesion"
              IconImageSource="hora.png">
 
-    <StackLayout VerticalOptions="Center" Padding="20">
-        <Image Source="user.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-        <Label Text="Ingresar" TextColor="White" FontSize="30" HorizontalOptions="Center" Margin="0,20,0,20"/>
-        <Entry PlaceholderColor="White" Placeholder="Usuario" TextColor="White" x:Name="TxtUsuario" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" />
-        <Entry PlaceholderColor="White" Placeholder="Contraseña"  TextColor="White" x:Name="TxtPassword" IsPassword="True" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" />
-        <Button Text="Iniciar sesión" x:Name="BtnIngresar" Clicked="Ingresar_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="#007bff" TextColor="White" Margin="0,0,0,10" />
-        <Button Text="Registro" Clicked="Registro_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="#6c757d" TextColor="White" />
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand">
+            <Label Text="Login" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Entry x:Name="entryUsername" Placeholder="Email" Keyboard="Email" />
+            <Entry x:Name="entryPassword" Placeholder="Password" IsPassword="True" />
+
+            <Button Text="Iniciar Sesión" BackgroundColor="#4CAF50" TextColor="White" Clicked="HandleLoginClicked" />
+
+
+            <Label Text="¿No tienes una cuenta?" HorizontalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="HandleRegisterTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,6 +13,9 @@ namespace Tr1
        
             // Envolver MainPage dentro de un NavigationPage
             
+
+
+            MainPage = new NavigationPage(new Login());
 
         }
 

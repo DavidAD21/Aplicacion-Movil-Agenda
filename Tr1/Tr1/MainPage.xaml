@@ -4,7 +4,6 @@
              Title="Lista de Actividades"
              IconImageSource="sesion.png">
                 
-
         <Grid>
         <ScrollView Grid.Row="0">
             <Grid>

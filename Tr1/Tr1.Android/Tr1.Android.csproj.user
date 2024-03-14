@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>nexus_4_-_api_34</SelectedDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <ActiveDebugProfile>Nexus 4 - API 34 %28Android 14.0 - API 34%29</ActiveDebugProfile>
+    <ActiveDebugProfile>Nexus 4 - API 34</ActiveDebugProfile>
     <DefaultDevice>nexus_4_-_api_34</DefaultDevice>
   </PropertyGroup>
 </Project>
