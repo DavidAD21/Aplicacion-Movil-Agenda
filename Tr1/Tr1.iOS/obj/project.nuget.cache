@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kfT9OwxrFCHOXPMxLW0IX4gYq3P/V5+CwH3ZfxdDu7KZhau7Wc15n7KBEPvy132W5Okgqlru2QUttdO8n5lo/w==",
+  "dgSpecHash": "OpsgbKiI23ghsHOE2W/hLZao5UKI/GWoMBpTaTvqxywmu7HGpjUKB+mIAl1svhJnc4IPINXHVIoPqw6tw7ijIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adrim\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
+    "C:\\Users\\adrim\\.nuget\\packages\\btprogresshud\\1.3.5\\btprogresshud.1.3.5.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

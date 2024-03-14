@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Tr1
@@ -22,17 +24,21 @@ namespace Tr1
 
             if (username == storedUsername && password == storedPassword)
             {
-        
+                UserDialogs.Instance.ShowLoading("Iniciando sesión...");
+                await Task.Delay(3000);
+                UserDialogs.Instance.HideLoading();
                 await Navigation.PushAsync(new MainPage());
+              
             }
+
             else if (username == storedUsername)
             {
-              
+                UserDialogs.Instance.ShowLoading("dsa...");
                 await DisplayAlert("Error", "Contraseña incorrecta", "Aceptar");
             }
             else if (password == storedPassword)
             {
-               
+                UserDialogs.Instance.ShowLoading("aaaaaa..");
                 await DisplayAlert("Error", "Usuario incorrecto", "Aceptar");
             }
             else

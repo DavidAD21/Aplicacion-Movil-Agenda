@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -32,7 +34,9 @@ namespace Tr1
 
             // Guardar los cambios
             await Application.Current.SavePropertiesAsync();
-
+            UserDialogs.Instance.ShowLoading("Registrando usuario...");
+            await Task.Delay(3000);
+            UserDialogs.Instance.HideLoading();
             // Mostrar alerta de registro exitoso
             await DisplayAlert("Registro exitoso", $"Nombre de usuario: {username}\nEmail: {email}\nContraseña: {password}", "Aceptar");
 

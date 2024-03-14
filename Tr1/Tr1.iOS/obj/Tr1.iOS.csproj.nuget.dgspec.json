@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj": {}
+    "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj": {
+    "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
         "projectName": "Tr1.iOS",
-        "projectPath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
+        "projectPath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\Tr1.iOS.csproj",
         "packagesPath": "C:\\Users\\adrim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj": {
-                "projectPath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj"
+              "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj": {
+                "projectPath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj": {
+    "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
+        "projectUniqueName": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
         "projectName": "Tr1",
-        "projectPath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
+        "projectPath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
         "packagesPath": "C:\\Users\\adrim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\obj\\",
+        "outputPath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,6 +119,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638459460857804844
+_nugetassetstimestamp=638459551874819076
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\adrim\music\tr1\tr1\tr1.android\tr1.android.csproj
+projectfullpath=c:\users\adrim\onedrive\imágenes\tr1\tr1\tr1.android\tr1.android.csproj

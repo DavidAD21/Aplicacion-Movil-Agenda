@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M2awTRDlqrim5w0o5eM8T7wp2ndq4ozK2yvaOUZq1eI1vAvN7XgO9UsQv4mwkgm98UnuWSSpqnyPxFDCmZ38jg==",
+  "dgSpecHash": "saqlL0QZeeKEqYid+p3M0nmcN3m33+xJ9e7VBrVPWGMvE1g8m2ZKzpDpp6H6OSp0kB02uxVr/XkZ2M/CUXs1GA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
+  "projectFilePath": "C:\\Users\\adrim\\OneDrive\\Imágenes\\Tr1\\Tr1\\Tr1\\Tr1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adrim\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\adrim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

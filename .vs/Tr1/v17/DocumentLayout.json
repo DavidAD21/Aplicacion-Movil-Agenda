@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adrim\\Music\\Tr1\\",
+  "WorkspaceRootPath": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\music\\tr1\\tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\music\\tr1\\tr1\\tr1\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\music\\tr1\\tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\music\\tr1\\tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0501E62E-7075-446B-B556-2BBDAC9B8CC7}|Tr1\\Tr1.Android\\Tr1.Android.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0501E62E-7075-446B-B556-2BBDAC9B8CC7}|Tr1\\Tr1.Android\\Tr1.Android.csproj|solutionrelative:tr1\\tr1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\adrim\\onedrive\\im\u00E1genes\\tr1\\tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,37 +54,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
-              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCoAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1.Android\\MainActivity.cs",
+              "RelativeToolTip": "Tr1\\Tr1.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T22:31:29.705Z"
+              "WhenOpened": "2024-03-14T00:40:05.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Register.xaml",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml",
-              "ToolTip": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Register.xaml",
-              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T00:39:09.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\App.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T22:30:54.598Z"
+              "WhenOpened": "2024-03-14T00:39:07.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:31:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Register.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T22:30:54.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
               "RelativeToolTip": "Tr1\\Tr1\\Login.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBsAAAAwAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T22:22:35.162Z",
               "EditorCaption": ""
@@ -81,13 +134,14 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "DocumentMoniker": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml",
-              "ToolTip": "C:\\Users\\adrim\\Music\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "ToolTip": "C:\\Users\\adrim\\OneDrive\\Im\u00E1genes\\Tr1\\Tr1\\Tr1\\Login.xaml",
               "RelativeToolTip": "Tr1\\Tr1\\Login.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T22:11:00.924Z"
+              "WhenOpened": "2024-03-13T22:11:00.924Z",
+              "EditorCaption": ""
             }
           ]
         },
