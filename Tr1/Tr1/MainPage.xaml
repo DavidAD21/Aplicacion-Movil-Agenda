@@ -1,8 +1,9 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Tr1"
              x:Class="Tr1.MainPage"
-             Title="Lista de Actividades">
+             Title="Lista de Actividades"
+             IconImageSource="sesion.png">
+                
 
         <Grid>
         <ScrollView Grid.Row="0">
@@ -40,10 +41,12 @@
 
 
                 <!-- Lista de actividades (en la capa superior) -->
-               <Grid Grid.Row="1"> <!-- Asegúrate de que este Grid tenga la misma fila que el otro contenido -->
+                <Grid Grid.Row="1">
+                    <!-- Asegúrate de que este Grid tenga la misma fila que el otro contenido -->
                     <Frame x:Name="listaActividadesFrame" IsVisible="True" CornerRadius="10"
                            BackgroundColor="#2D93F7" Margin="10" HorizontalOptions="FillAndExpand"
-                           WidthRequest="200" HeightRequest="300"> <!-- Ajusta el tamaño según sea necesario -->
+                           WidthRequest="200" HeightRequest="300">
+                        <!-- Ajusta el tamaño según sea necesario -->
                         <ListView x:Name="listaActividadesListView" ItemSelected="ActividadSeleccionada">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
@@ -66,16 +69,15 @@
                             </ListView.ItemsSource>
                         </ListView>
                     </Frame>
-                  
-                </Grid>
 
+                </Grid>
 
 
                 <!-- Nuevo StackLayout para el texto agregado -->
                 <StackLayout Grid.Row="2" x:Name="actividadesStackLayout" >
-
                     <!-- Aquí se agregarán dinámicamente los elementos de texto -->
                 </StackLayout>
+
 
 
                 <!-- StackLayout para la lupa y los tres puntos -->
@@ -99,23 +101,16 @@
             </Grid>
         </ScrollView>
 
-<Grid VerticalOptions="End">
-    <Frame BackgroundColor="#CCE5FF" CornerRadius="20" Margin="20" Padding="10" VerticalOptions="End">
-        <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand">
-            <Entry x:Name="entryActividad" Placeholder="Introduzca actividad rápida"
-                   BackgroundColor="#FFFFFF"  Margin="0,0,0,10" />
-            <Button x:Name="btnEnviar" Text="AGREGAR" WidthRequest="120" HeightRequest="50" Clicked="HandleEnviarClicked"
-                    BackgroundColor="#3C9EFF" CornerRadius="25" Margin="0,0,0,10" TextColor="White"/>
-        </StackLayout>
-    </Frame>
-</Grid>
-
-
-
-
-            
-              
-
+            <Grid VerticalOptions="End">
+            <Frame BackgroundColor="#CCE5FF" CornerRadius="20" Margin="20" Padding="10" VerticalOptions="End">
+            <StackLayout VerticalOptions="End" HorizontalOptions="FillAndExpand">
+                <Entry x:Name="entryActividad" Placeholder="Introduzca actividad rápida"
+                        BackgroundColor="#FFFFFF"  Margin="0,0,0,10" />
+                <Button x:Name="btnEnviar" Text="AGREGAR" WidthRequest="120" HeightRequest="50" Clicked="HandleEnviarClicked"
+                        BackgroundColor="#3C9EFF" CornerRadius="25" Margin="0,0,0,10" TextColor="White"/>
+            </StackLayout>
+            </Frame>
+            </Grid>
 
 
     </Grid>

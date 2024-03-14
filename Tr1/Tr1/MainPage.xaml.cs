@@ -61,9 +61,16 @@ namespace Tr1
         {
             listaActividadesFrame.IsVisible = !listaActividadesFrame.IsVisible;
         }
-        private void ActividadSeleccionada(object sender, EventArgs e)
+        private async void ActividadSeleccionada(object sender, SelectedItemChangedEventArgs e)
         {
+            if (e.SelectedItem == null)
+                return;
 
+            string actividadSeleccionada = e.SelectedItem.ToString();
+            await Navigation.PushAsync(new TareaDescripcion(actividadSeleccionada));
+
+            // Deseleccionar el elemento seleccionado
+            ((ListView)sender).SelectedItem = null;
         }
         private void EntryActividad_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -83,7 +90,7 @@ namespace Tr1
 
 
         // Método para manejar el clic del botón de envío
-        private void HandleEnviarClicked(object sender, EventArgs e)
+        private async void HandleEnviarClicked(object sender, EventArgs e)
         {
             string actividad = entryActividad.Text;
             if (!string.IsNullOrWhiteSpace(actividad))
@@ -105,47 +112,62 @@ namespace Tr1
                 stackLayout.Children.Add(checkBox);
                 stackLayout.Children.Add(nuevaActividadLabel);
 
+                // Agregar el evento Tapped para redirigir a TareaDescripcion
+                stackLayout.GestureRecognizers.Add(new TapGestureRecognizer
+                {
+                    Command = new Command(async () =>
+                    {
+                        // Obtenemos la actividad seleccionada
+                        string actividadSeleccionada = nuevaActividadLabel.Text;
+                        // Maneja la navegación a la página TareaDescripcion
+                        await Navigation.PushAsync(new TareaDescripcion(actividadSeleccionada));
+                    })
+                });
+
                 // Agregar el StackLayout al StackLayout específico para mostrar las actividades
                 actividadesStackLayout.Children.Add(stackLayout);
             }
             else
             {
                 // Si no se ingresó ninguna actividad, mostrar un mensaje de error
-                DisplayAlert("Error", "Debe ingresar una actividad", "Aceptar");
+                await DisplayAlert("Error", "Debe ingresar una actividad", "Aceptar");
             }
 
             // Limpia el campo de entrada después de enviar la actividad
             entryActividad.Text = string.Empty;
         }
 
+        private void AgregarTarea(string tarea)
+        {
+            var stackLayout = new StackLayout { Orientation = StackOrientation.Horizontal, Margin = new Thickness(10) };
+
+            // Crear el Label con el texto de la tarea
+            var nuevaTareaLabel = new Label
+            {
+                Text = tarea,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            // Agregar el evento de selección a la tarea
+            nuevaTareaLabel.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => OnTareaSeleccionada(tarea))
+            });
+
+            // Agregar el Label al StackLayout
+            stackLayout.Children.Add(nuevaTareaLabel);
+
+            // Agregar el StackLayout al StackLayout específico para mostrar las tareas
+            actividadesStackLayout.Children.Add(stackLayout);
+        }
+        private async void OnTareaSeleccionada(string tarea)
+        {
+            await Navigation.PushAsync(new TareaDescripcion(tarea));
+        }
+
         public void AgregarTareas(string tareas)
         {
-            // Separar las tareas en una lista
-            var listaTareas = tareas.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-            // Recorrer la lista de tareas y agregarlas a la interfaz de usuario
-            foreach (var tarea in listaTareas)
-            {
-                // Mostrar la tarea ingresada en un StackLayout con un checkbox
-                var stackLayout = new StackLayout { Orientation = StackOrientation.Horizontal, Margin = new Thickness(10) };
-
-                // Crear el checkbox
-                var checkBox = new CheckBox { VerticalOptions = LayoutOptions.Center };
-
-                // Crear el Label con el texto de la tarea
-                var nuevaTareaLabel = new Label
-                {
-                    Text = tarea,
-                    VerticalOptions = LayoutOptions.Center
-                };
-
-                // Agregar el checkbox y el Label al StackLayout
-                stackLayout.Children.Add(checkBox);
-                stackLayout.Children.Add(nuevaTareaLabel);
-
-                // Agregar el StackLayout al StackLayout específico para mostrar las tareas
-                actividadesStackLayout.Children.Add(stackLayout);
-            }
+            // Tu lógica para agregar tareas aquí...
         }
-        }
+    }
     }

@@ -5,12 +5,14 @@ C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\bin\Debug\netstandard2.0\Tr1.pd
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Tr1.csproj.AssemblyReference.cache
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Tr1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Duplicado.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Login.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Register.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\TareaDescripcion.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\TareaMultiple.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\TareaNueva.xaml.g.cs
+C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\UserPerfil.xaml.g.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Tr1.AssemblyInfoInputs.cache
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Tr1.AssemblyInfo.cs
 C:\Users\PC-WIN-10-uefi\source\repos\Tr1\Tr1\Tr1\obj\Debug\netstandard2.0\Tr1.csproj.CoreCompileInputs.cache

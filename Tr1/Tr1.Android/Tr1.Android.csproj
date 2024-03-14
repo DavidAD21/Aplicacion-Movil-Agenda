@@ -112,7 +112,10 @@
     <AndroidResource Include="Resources\drawable\casa.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\hora.png" />
     <Content Include="Resources\drawable\like.png" />
+    <AndroidResource Include="Resources\drawable\perfil.png" />
+    <Content Include="Resources\drawable\sesion.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

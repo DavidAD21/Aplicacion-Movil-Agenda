@@ -12,9 +12,14 @@ namespace Tr1
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class TareaDescripcion : ContentPage
 	{
-		public TareaDescripcion ()
-		{
-			InitializeComponent ();
-		}
-	}
+        private string nombreTarea;
+
+        public TareaDescripcion(string nombreTarea)
+        {
+            InitializeComponent();
+            this.nombreTarea = nombreTarea;
+            lblTareaSeleccionada.Text = $"Descripción de la tarea: {nombreTarea}";
+        }
+
+    }
 }

@@ -4,9 +4,8 @@
              x:Class="Tr1.TareaDescripcion">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <!-- Asegúrate de tener un Label con el nombre lblTareaSeleccionada -->
+            <Label x:Name="lblTareaSeleccionada" Text="Descripción de la tarea seleccionada" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

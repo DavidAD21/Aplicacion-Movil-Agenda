@@ -9,9 +9,10 @@ namespace Tr1
         public App()
         {
             InitializeComponent();
-
+       
             // Envolver MainPage dentro de un NavigationPage
-            MainPage = new NavigationPage(new MainPage());
+            
+
         }
 
         protected override void OnStart()

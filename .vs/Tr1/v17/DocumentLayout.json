@@ -3,48 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareadescripcion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareadescripcion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\duplicado.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\duplicado.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\duplicado.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\duplicado.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareanueva.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareanueva.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareamultiple.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareamultiple.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareadescripcion.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareadescripcion.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\register.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareamultiple.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareamultiple.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareanueva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareanueva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\userperfil.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\userperfil.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareanueva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareanueva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareanueva.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareanueva.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|c:\\users\\pc-win-10-uefi\\source\\repos\\tr1\\tr1\\tr1\\tareadescripcion.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DBCC94F2-2CA2-499B-B606-8E17288826CA}|Tr1\\Tr1\\Tr1.csproj|solutionrelative:tr1\\tr1\\tareadescripcion.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,54 +62,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Register.xaml",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\Register.xaml",
-              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Register.xaml",
-              "RelativeToolTip": "Tr1\\Tr1\\Register.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T21:34:11.033Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml",
-              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml",
-              "RelativeToolTip": "Tr1\\Tr1\\Login.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T21:33:58.719Z",
-              "EditorCaption": ""
+              "Title": "Duplicado.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Duplicado.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Duplicado.xaml.cs",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Duplicado.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\Duplicado.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:03:42.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TareaDescripcion.xaml",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaDescripcion.xaml",
-              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml",
-              "RelativeToolTip": "Tr1\\Tr1\\TareaDescripcion.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "DocumentIndex": 1,
+              "Title": "Duplicado.xaml",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Duplicado.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Duplicado.xaml",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Duplicado.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\Duplicado.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T21:33:23.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T22:36:01.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\App.xaml",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml",
@@ -109,53 +106,48 @@
               "RelativeToolTip": "Tr1\\Tr1\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T18:53:46.369Z",
+              "WhenOpened": "2024-03-13T22:35:45.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPerfil.xaml",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\UserPerfil.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\UserPerfil.xaml",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\UserPerfil.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\UserPerfil.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T22:35:25.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareaDescripcion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaDescripcion.xaml.cs",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\TareaDescripcion.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:00:33.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TareaMultiple.xaml",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaMultiple.xaml",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaMultiple.xaml",
-              "ToolTip": "Tr1/Tr1/TareaMultiple.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "OverriddenGroupName": "Tr1\\Tr1",
-              "OverriddenToolTip": "Tr1/Tr1/TareaMultiple.xaml",
-              "WhenOpened": "2024-03-13T04:26:35.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TareaMultiple.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaMultiple.xaml.cs",
-              "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaMultiple.xaml.cs",
-              "ToolTip": "Tr1/Tr1/TareaMultiple.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAApwBgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Tr1\\Tr1",
-              "OverriddenToolTip": "Tr1/Tr1/TareaMultiple.xaml.cs",
-              "WhenOpened": "2024-03-13T06:44:47.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "TareaNueva.xaml",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaNueva.xaml",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaNueva.xaml",
               "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaNueva.xaml",
               "RelativeToolTip": "Tr1\\Tr1\\TareaNueva.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T18:31:34.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:31:34.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TareaNueva.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaNueva.xaml.cs",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaNueva.xaml.cs",
@@ -163,48 +155,80 @@
               "RelativeToolTip": "Tr1\\Tr1\\TareaNueva.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T03:15:34.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T03:15:34.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\MainPage.xaml",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\MainPage.xaml",
               "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\MainPage.xaml",
               "RelativeToolTip": "Tr1\\Tr1\\MainPage.xaml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGkAAABAAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "OverriddenGroupName": "Tr1\\Tr1",
-              "WhenOpened": "2024-03-11T14:37:32.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T14:37:32.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\MainPage.xaml.cs",
               "RelativeToolTip": "Tr1\\Tr1\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAApwA8AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T14:37:35.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T14:37:35.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
               "RelativeDocumentMoniker": "Tr1\\Tr1\\App.xaml.cs",
               "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\App.xaml.cs",
               "RelativeToolTip": "Tr1\\Tr1\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:53:47.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T18:53:47.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\Login.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T22:39:01.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\Login.xaml.cs",
+              "RelativeToolTip": "Tr1\\Tr1\\Login.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAawCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:36:54.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TareaDescripcion.xaml",
+              "DocumentMoniker": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml",
+              "RelativeDocumentMoniker": "Tr1\\Tr1\\TareaDescripcion.xaml",
+              "ToolTip": "C:\\Users\\PC-WIN-10-uefi\\source\\repos\\Tr1\\Tr1\\Tr1\\TareaDescripcion.xaml",
+              "RelativeToolTip": "Tr1\\Tr1\\TareaDescripcion.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T21:33:23.793Z"
             }
           ]
         }
